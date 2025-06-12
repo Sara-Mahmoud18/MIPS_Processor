@@ -1,0 +1,13 @@
+Release 14.5 ngdbuild P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Main_Module.ngc
+Main_Module.ngd
+
+Reading NGO file "D:/ASU/Sphomore/CSE221  Logic Design and Computer
+Organization/Major task/phase 2/Phase2_v3/Main_Module.ngc" ...
+FATAL_ERROR:XdmHelpers:Xdh_LibLoader.c:116:1.8 - Failed to open library
+   D:/Xilinx/14.5/ISE_DS/ISE/data/xilinx.xda: Xdm_Exception::InvalidFileFormat
+   format=binary file='D:/Xilinx/14.5/ISE_DS/ISE/data/xilinx.xda'    For
+   technical support on this issue, please visit http://www.xilinx.com/support.

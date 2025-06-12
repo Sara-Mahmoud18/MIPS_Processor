@@ -1,0 +1,7 @@
+vhdl isim_temp "Register0.vhd"
+vhdl isim_temp "MyPackage.vhd"
+vhdl isim_temp "MUX_32_V2.vhd"
+vhdl isim_temp "Decoder.vhd"
+vhdl isim_temp "RegisterFile.vhd"
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "datapath.vhd"

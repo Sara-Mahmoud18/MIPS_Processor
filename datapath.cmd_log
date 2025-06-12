@@ -1,0 +1,1 @@
+vhdtdtfi -lib work Register0.vhd -lib work MyPackage.vhd -lib work MUX_32_V2.vhd -lib work Decoder.vhd -lib work RegisterFile.vhd -lib work ALU.vhd -lib work datapath.vhd -prj COPROJECTPH2 -o datapath.spl -module datapath -template D:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 

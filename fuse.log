@@ -1,0 +1,67 @@
+Running: D:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/testbench_isim_beh.exe -prj D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/testbench_beh.prj work.testbench 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/Registers.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/Register0.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/MyPackage.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/MUX_32_V2.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/Decoder.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/SL2.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/signExtend.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/RegisterFile.vhd" into library work
+WARNING:HDLCompiler:946 - "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/RegisterFile.vhd" Line 92: Actual for formal port load is neither a static name nor a globally static expression
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/MyPackage1.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/MUX_2.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/Main_Decoder.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/ALUdecoder.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/ALU.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/Adder.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/MyPackage2.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/datapath.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/Controller.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/mips.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/imem.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/dmem.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/Main_Module.vhd" into library work
+Parsing VHDL file "D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package numeric_std
+Compiling package std_logic_unsigned
+Compiling package mypackage2
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package mypackage
+Compiling package mypackage1
+Compiling architecture behavioral of entity Decoder_1_to_32 [decoder_1_to_32_default]
+Compiling architecture behavioral of entity Register0 [\Register0(32)\]
+Compiling architecture behavioral of entity Registers [\Registers(32)\]
+Compiling architecture behavioral of entity MUX_32_V2 [mux_32_v2_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity signExtend [signextend_default]
+Compiling architecture behavioral of entity MUX_2 [\MUX_2(5)\]
+Compiling architecture behavioral of entity MUX_2 [\MUX_2(32)\]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity SL2 [\SL2(32)\]
+Compiling architecture behavioral of entity datapath [datapath_default]
+Compiling architecture behavioral of entity Main_Decoder [main_decoder_default]
+Compiling architecture behavioral of entity ALUdecoder [aludecoder_default]
+Compiling architecture behavioral of entity Controller [controller_default]
+Compiling architecture behavioral of entity mips [mips_default]
+Compiling architecture behave of entity imem [imem_default]
+Compiling architecture behave of entity dmem [dmem_default]
+Compiling architecture behavioral of entity Main_Module [main_module_default]
+Compiling architecture test of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 23 sub-compilation(s) to finish...
+Compiled 50 VHDL Units
+Built simulation executable D:/ASU/Sphomore/CSE221  Logic Design and Computer Organization/Major task/phase 2/Phase2_v3/testbench_isim_beh.exe
+Fuse Memory Usage: 39484 KB
+Fuse CPU Usage: 827 ms

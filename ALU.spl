@@ -1,0 +1,8 @@
+[Inputs]
+=data1[31:0]=
+=data2[31:0]=
+=aluop[3:0]=
+[Outputs]
+zflag
+=dataout[31:0]=
+[BiDir]
